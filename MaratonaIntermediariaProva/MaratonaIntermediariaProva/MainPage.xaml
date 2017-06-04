@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:MaratonaIntermediariaProva"
              x:Class="MaratonaIntermediariaProva.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <TextCell />
+        </DataTemplate>
+    </ListView.ItemTemplate>
 
 </ContentPage>

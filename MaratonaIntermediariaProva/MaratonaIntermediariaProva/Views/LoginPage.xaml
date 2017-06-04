@@ -7,7 +7,6 @@
         <StackLayout
         HorizontalOptions="Center"
         VerticalOptions="CenterAndExpand">
-            <Label Text="Meu app Social" TextColor="Black" FontSize="Medium"/>
             <Button Command="{Binding LoginCommand}"
             Text="Acessar com Facebook"
                 BackgroundColor="Blue"
